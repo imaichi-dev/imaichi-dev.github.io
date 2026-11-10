@@ -27,6 +27,9 @@ h2 { font-family:"Dela Gothic One",sans-serif; font-weight:400; font-size: 18px;
 .links { display:flex; flex-wrap:wrap; gap:8px 16px; font-size:14px; }
 a { color:var(--ink); text-underline-offset:3px; }
 footer { color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:16px; }
+.apps { display:grid; gap:16px; }
+.icon.rongo { background:#f3ecdc; border:1.5px solid #d9cdb3; }
+.icon.rongo span { border:none; border-radius:4px; width:auto; height:auto; padding:2px 0; transform:none; color:#7a2a20; font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif; font-weight:700; font-size:30px; writing-mode:vertical-rl; letter-spacing:.05em; }
 @media (max-width: 420px) { .app { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -39,6 +42,7 @@ footer { color:var(--muted); font-size:13px; border-top:1px solid var(--line); p
 
   <section>
     <h2>アプリ / Apps</h2>
+    <div class="apps">
     <div class="app">
       <div class="icon" aria-hidden="true"><span>済</span></div>
       <div>
@@ -49,6 +53,18 @@ footer { color:var(--muted); font-size:13px; border-top:1px solid var(--line); p
           <a href="https://docs.google.com/document/d/e/2PACX-1vSv7HJs9YidkcDUDFSWU7lrG32sAiLWV1joh6wsW79C_sDG8a5b7LgX7blXMYDW6sGFbKaN0Ktv4qf-/pub">サポート / Support</a>
         </div>
       </div>
+    </div>
+    <div class="app">
+      <div class="icon rongo" aria-hidden="true"><span>論語</span></div>
+      <div>
+        <h3>論語全訳 <small style="font-weight:400;color:var(--muted)">The Analects of Confucius</small></h3>
+        <p>『論語』全二十篇・五〇二章を、原文・書き下し文・現代語訳・解説の4ページで、縦書き・フリガナ付きで読める読書アプリ。読み上げにも対応。<br>Read all 502 chapters of the Analects in vertical Japanese text: original, classical reading, modern translation and commentary.</p>
+        <div class="links">
+          <a href="https://docs.google.com/document/d/e/2PACX-1vRmTt0pNhv9ihW6IQ3w7RV6oaIX2DlrZzISEP4sCcy_SpZLAbSxXvKhMx-OKrjYIrZyNz5G94bWyl9c/pub">プライバシーポリシー / Privacy Policy</a>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vQ888faoBln7k78elqD_gPkL6bng8pvKr_b4rtTKLO0yWBlPOwVPNau1kaHZRCeXxef92JzcS40csF2/pub">サポート / Support</a>
+        </div>
+      </div>
+    </div>
     </div>
   </section>
 
